@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../font/satoshi/Satoshi-Bold.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../font/satoshi/Satoshi-Black.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../font/satoshi/Satoshi-Medium.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../font/satoshi/Satoshi-Regular.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
