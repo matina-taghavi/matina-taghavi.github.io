@@ -33,3 +33,13 @@
     font-display: swap;
     font-style: normal;
 }
+
+.custome-bg {
+    background-image: url("../image/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.icon {
+    width: 50px;
+}
