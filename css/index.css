@@ -38,8 +38,17 @@
     background-image: url("../image/bg.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 650px;
 }
 
-.icon {
-    width: 50px;
+.font-f {
+    font-family: 'Satoshi-Bold', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.honor {
+    font-family: "Karla", system-ui, sans-serif;
+    letter-spacing: 1px;
 }
