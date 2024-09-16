@@ -52,3 +52,11 @@
     font-family: "Karla", system-ui, sans-serif;
     letter-spacing: 1px;
 }
+
+.edith {
+    border-radius: 0 !important;
+}
+
+.cart {
+    cursor: pointer;
+}
