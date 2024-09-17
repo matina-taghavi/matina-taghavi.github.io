@@ -48,6 +48,23 @@
     color: white;
 }
 
+.font-f:hover {
+    color: white;
+}
+
+.font-drop {
+    font-family: 'Satoshi-Medium', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.font-drop:hover {
+    color: white !important;
+}
+
+.b-rou {
+    border-radius: 0;
+}
+
 .honor {
     font-family: "Karla", system-ui, sans-serif;
     letter-spacing: 1px;
@@ -59,4 +76,41 @@
 
 .cart {
     cursor: pointer;
+}
+
+.w-custome {
+    width: 125px;
+}
+
+.h-custome {
+    height: fit-content;
+}
+
+.forbes {
+    height: 250px;
+}
+
+.style {
+    list-style-type: none;
+
+}
+
+/* .hov {
+    font-size: 14px;
+    transition: font-size 1s linear 0;
+}
+PROBLEM
+.hov:hover {
+    font-size: 18px;
+} */
+.font-bio {
+    font-family: 'Satoshi-Bold', Arial, Helvetica, sans-serif;
+}
+
+.font-li {
+    font-family: "Karla", system-ui, sans-serif;
+}
+
+.focous {
+    font-size: 15px;
 }
