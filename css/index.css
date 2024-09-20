@@ -35,7 +35,7 @@
 }
 
 .custome-bg {
-    background-image: url("../image/bg.jpg");
+    background-image: url("../image/green.JPG");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -74,6 +74,10 @@
     border-radius: 0 !important;
 }
 
+.edith:hover {
+    background-color: #f8f9fa !important;
+}
+
 .cart {
     cursor: pointer;
 }
@@ -95,14 +99,14 @@
 
 }
 
-/* .hov {
-    font-size: 14px;
-    transition: font-size 1s linear 0;
+.magni {
+    transition: all 200ms ease-out 0s;
 }
-PROBLEM
-.hov:hover {
-    font-size: 18px;
-} */
+
+.magni:hover {
+    zoom: 1.1;
+}
+
 .font-bio {
     font-family: 'Satoshi-Bold', Arial, Helvetica, sans-serif;
 }
@@ -113,4 +117,18 @@ PROBLEM
 
 .focous {
     font-size: 15px;
+}
+
+.nav-custome {
+    background-color: #CEDF9F;
+}
+
+.news {
+    font-family: "Karla", system-ui, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.sub {
+    border-radius: 4px !important;
 }
