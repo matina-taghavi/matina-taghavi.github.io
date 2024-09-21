@@ -131,4 +131,24 @@
 
 .sub {
     border-radius: 4px !important;
+    transition: all 400ms ease-out 0s;
+}
+
+.sub:hover {
+    color: black;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.w-email {
+    width: 350px;
+}
+
+.off {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.card-rad {
+    border-radius: 8px !important;
 }
