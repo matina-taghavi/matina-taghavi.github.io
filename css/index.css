@@ -108,11 +108,11 @@
 }
 
 .font-bio {
-    font-family: 'Satoshi-Bold', Arial, Helvetica, sans-serif;
+    font-family: 'Satoshi-Bold', Arial, Helvetica, sans-serif !important;
 }
 
 .font-li {
-    font-family: "Karla", system-ui, sans-serif;
+    font-family: "Karla", system-ui, sans-serif !important;
 }
 
 .focous {
@@ -124,7 +124,7 @@
 }
 
 .news {
-    font-family: "Karla", system-ui, sans-serif;
+    font-family: "Karla", system-ui, sans-serif !important;
     font-size: 15px;
     letter-spacing: 2px;
 }
@@ -149,6 +149,30 @@
     width: fit-content;
 }
 
+.point {
+    cursor: pointer;
+}
+
 .card-rad {
     border-radius: 8px !important;
 }
+
+.kind {
+    background-image: url("../image/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 550px;
+
+}
+
+.first {
+    background-color: antiquewhite;
+}
+
+/* @media all and (max-width:991px) {
+    .scr {
+        display: none;
+    }
+} */
