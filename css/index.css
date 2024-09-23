@@ -120,7 +120,7 @@
 }
 
 .nav-custome {
-    background-color: #CEDF9F;
+    background-color: #d0dfa9;
 }
 
 .news {
@@ -171,8 +171,16 @@
     background-color: antiquewhite;
 }
 
-/* @media all and (max-width:991px) {
-    .scr {
-        display: none;
+.icon-b {
+    width: 30px;
+}
+
+@media all and (max-width:991px) {
+
+    .news,
+    .keep {
+        text-align: center;
     }
-} */
+
+
+}
