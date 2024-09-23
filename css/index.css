@@ -158,7 +158,7 @@
 }
 
 .kind {
-    background-image: url("../image/bg2.jpg");
+    background-image: url("../image/simple-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -167,9 +167,6 @@
 
 }
 
-.first {
-    background-color: antiquewhite;
-}
 
 .icon-b {
     width: 30px;
