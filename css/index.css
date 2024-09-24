@@ -167,13 +167,3 @@
 .icon-b {
     width: 30px;
 }
-
-@media all and (max-width:991px) {
-
-    .news,
-    .keep {
-        text-align: center;
-    }
-
-
-}
