@@ -168,6 +168,13 @@
     width: 30px;
 }
 
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+}
+
+
 @media all and (min-width:720px) and (max-width:991px) {
     .visi {
         visibility: hidden;
