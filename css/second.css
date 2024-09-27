@@ -35,9 +35,9 @@
 }
 
 .custome-bg {
-    background-image: url("../image/green.JPG");
+    background-image: url("../image/stairs.JPG");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: scroll;
     background-repeat: no-repeat;
     height: 650px;
@@ -174,6 +174,9 @@
     right: 2%;
 }
 
+.text-hov:hover {
+    background-color: #212529 !important;
+}
 
 @media all and (min-width:720px) and (max-width:991px) {
     .visi {

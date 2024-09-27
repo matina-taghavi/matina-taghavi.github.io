@@ -175,6 +175,10 @@
     right: 2%;
 }
 
+.text-hov:hover {
+    background-color: #212529 !important;
+}
+
 @media all and (min-width:720px) and (max-width:991px) {
     .visi {
         visibility: hidden;
