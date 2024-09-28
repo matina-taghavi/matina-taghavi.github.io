@@ -125,6 +125,10 @@
     letter-spacing: 2px;
 }
 
+.loca {
+    letter-spacing: 2px;
+}
+
 .sub {
     border-radius: 4px !important;
     transition: all 400ms ease-out 0s;
@@ -176,6 +180,10 @@
 
 .text-hov:hover {
     background-color: #212529 !important;
+}
+
+.linear {
+    background-image: linear-gradient(#d0dfa9, #cff4d2);
 }
 
 @media all and (min-width:720px) and (max-width:991px) {
