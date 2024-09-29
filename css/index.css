@@ -155,13 +155,17 @@
 }
 
 .kind {
-    background-image: url("../image/simple-bg.jpg");
+    background-image: url("../image/bird.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
     height: 550px;
 
+}
+
+.content {
+    opacity: 0;
 }
 
 

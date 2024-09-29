@@ -186,10 +186,22 @@
 }
 
 @media all and (min-width:720px) and (max-width:991px) {
-    .visi {
+
+    .visi,
+    .text-co {
         visibility: hidden;
     }
 
+}
+
+@media all and (max-width:719px) {
+    .text-co {
+        color: transparent;
+    }
+
+    .text-co:hover {
+        color: transparent !important;
+    }
 }
 
 @media all and (max-width:767px) {
