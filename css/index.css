@@ -96,11 +96,41 @@
 }
 
 .magni {
+    transform: scale(1);
     transition: all 200ms ease-out 0s;
 }
 
 .magni:hover {
-    zoom: 1.1;
+    transform: scale(1.1) !important;
+}
+
+.face,
+.insta,
+.link,
+.youtu,
+.pint {
+    transition: all 400ms ease-out 0s;
+}
+
+.face:hover {
+    color: #1877F2 !important;
+}
+
+.insta:hover {
+    color: white !important;
+    background-image: linear-gradient(#5b51d8, #c13584, #f77737, #ffdc80) !important;
+}
+
+.link:hover {
+    color: #0077B5 !important;
+}
+
+.youtu:hover {
+    color: #FF0000 !important;
+}
+
+.pint:hover {
+    color: #E60023 !important;
 }
 
 .font-bio {
