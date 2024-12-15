@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+button {
+    font-family: "Vazirmatn", sans-serif;
+    cursor: pointer;
+}
+
+:root {
+    --heading-color: #414A53;
+    --secondary-color: #F7D2CA;
+    --sm-heading: #57626D;
+    --sm-hover: #A0ACB9;
+    --body: #86939F;
+    --primary-color: #55883b;
+    --teritary-color: #f6f4f3;
+    --m-lg-right: 24px;
+    --m-lg-left: 24px;
+    --m-md-right: 16px;
+    --m-md-left: 16px;
+    --m-sm-right: 8px;
+    --m-sm-left: 8px;
+    --pic-border-color: #E9E5E1;
+}
+
+li {
+    list-style-type: none;
+    height: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.bread {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: fit-content;
+    margin: 10px 0px;
+}
+
+.bread li,
+.bread li a {
+    font-size: 16px;
+    color: var(--body);
+    line-height: 16px;
+    transition: all 200ms linear 0s;
+    margin-right: 6px !important;
+}
+
+.bread li a:hover {
+    color: var(--heading-color);
+}
+
+.use {
+    margin: 40px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 3px 2px var(--body), -1px -1px 3px 2px var(--body);
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    top: 0;
+
+}
+
+.pic a {
+    display: block;
+}
+
+.pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.use1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.use1 p:first-of-type {
+    text-align: center;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 24px 0px;
+}
+
+.use1 p:last-of-type {
+    text-align: center;
+    font-weight: 400;
+    color: var(--sm-heading);
+    margin: 8px 0px;
+}
+
+.password-container {
+    border: 1px solid var(--heading-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+input::placeholder {
+    direction: rtl !important;
+    text-align: right;
+}
+
+.name {
+    border: 1px solid var(--heading-color);
+    padding: 0 5px;
+    border-radius: 8px;
+    direction: ltr !important;
+}
+
+input {
+    width: 100%;
+    padding: 0 5px;
+    border-radius: 8px 0 0 8px;
+    /* background-color: aqua; */
+    direction: ltr !important;
+}
+
+.icon {
+    padding: 0 5px;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    color: var(--primary-color);
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    font-size: 18px;
+    transition: all 300ms ease-in-out 0s;
+
+    a {
+        color: var(--primary-color);
+        line-height: 30px;
+        width: 100%;
+        display: block;
+    }
+}
+
+button:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+/* ///////////////////////////////////// */
+.hidden {
+    display: none;
+}
+
+.result {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.password-strength {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    transition: all 300ms ease 0s;
+}
+
+.weak {
+    width: 20%;
+    background-color: rgb(255, 0, 0);
+}
+
+.not-bad {
+    width: 40%;
+    background-color: rgb(255, 100, 0);
+}
+
+.normal {
+    width: 60%;
+    background-color: rgb(255, 255, 0);
+}
+
+.good {
+    width: 80%;
+    background-color: rgb(0, 255, 150);
+}
+
+.excelent {
+    width: 100%;
+    background-color: rgb(0, 255, 0);
+}
+
+
+@media all and (max-width:575px) {
+    li {
+        margin-right: var(--m-sm-right);
+    }
+
+    a {
+        color: var(--sm-heading);
+    }
+
+    .bread {
+        margin-right: var(--m-sm-right);
+    }
+
+    .use {
+        width: 80%;
+        height: 400px;
+    }
+
+    .pic {
+        width: 80px;
+        margin-top: -40px;
+
+    }
+
+    .use1 p:first-of-type {
+        font-size: 18px;
+    }
+
+    .use1 p:last-of-type {
+        font-size: 16px;
+    }
+
+    .password-container {
+        margin: 14px auto;
+        width: 82%;
+        height: 25px;
+    }
+
+    .name {
+        width: 80% !important;
+        height: 25px;
+    }
+
+    .icon {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:991px) {
+
+    li {
+        margin-right: var(--m-md-right);
+    }
+
+    .hide-li {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    a {
+        color: var(--sm-heading);
+    }
+
+    .bread {
+        margin-right: var(--m-md-right);
+    }
+
+    .use {
+        width: 70%;
+        height: 400px;
+    }
+
+    .pic {
+        width: 120px;
+        margin-top: -60px;
+
+    }
+
+    .use1 p:first-of-type {
+        font-size: 20px;
+    }
+
+    .use1 p:last-of-type {
+        font-size: 18px;
+    }
+
+    .password-container {
+        margin: 20px auto;
+        width: 72%;
+        height: 30px;
+    }
+
+    .name {
+        width: 70% !important;
+        height: 30px !important;
+    }
+
+    .icon {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media all and (min-width:992px) {
+
+    li {
+        margin-right: var(--m-lg-right);
+    }
+
+    a {
+        color: var(--sm-heading);
+    }
+
+    .bread {
+        margin-right: var(--m-lg-right);
+    }
+
+    .use {
+        width: 60%;
+        height: 450px;
+    }
+
+    .pic {
+        width: 150px;
+        margin-top: -75px;
+
+    }
+
+    .use1 p:first-of-type {
+        font-size: 22px;
+    }
+
+    .use1 p:last-of-type {
+        font-size: 20px;
+    }
+
+    .password-container {
+        margin: 20px auto;
+        width: 62%;
+        height: 40px;
+    }
+
+    .name {
+        width: 60% !important;
+        height: 40px !important;
+    }
+
+    .icon {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}
